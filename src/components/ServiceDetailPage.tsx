@@ -50,7 +50,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
                 className="inline-flex items-center space-x-2 text-gray-600 hover:text-primary-600 transition-colors mb-8"
               >
                 <ArrowLeft className="w-5 h-5" />
-                <span>{locale === 'ru' ? 'Все услуги' : 'All services'}</span>
+                <span>{locale === 'ru' ? 'Р’СЃРµ СѓСЃР»СѓРіРё' : 'All services'}</span>
               </Link>
             </motion.div>
 
@@ -80,11 +80,11 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
                     whileTap={{ scale: 0.95 }}
                     className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all"
                   >
-                    <span>{locale === 'ru' ? 'Смотреть проекты' : 'View Projects'}</span>
+                    <span>{locale === 'ru' ? 'РЎРјРѕС‚СЂРµС‚СЊ РїСЂРѕРµРєС‚С‹' : 'View Projects'}</span>
                   </motion.a>
 
                   <motion.a
-                    href="https://t.me/NOENEMY23"
+                    href="https://t.me/yerkindev"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05, y: -2 }}
@@ -92,7 +92,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
                     className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-2xl font-semibold shadow-lg hover:shadow-xl hover:border-primary-300 transition-all"
                   >
                     <Send className="w-5 h-5" />
-                    <span>{locale === 'ru' ? 'Написать в Telegram' : 'Message on Telegram'}</span>
+                    <span>{locale === 'ru' ? 'РќР°РїРёСЃР°С‚СЊ РІ Telegram' : 'Message on Telegram'}</span>
                   </motion.a>
                 </div>
               </motion.div>
@@ -107,15 +107,15 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
                 <div className="flex items-center space-x-3 mb-6">
                   <Clock className="w-6 h-6 text-primary-600" />
                   <h3 className="text-xl font-display font-bold text-gray-900">
-                    {locale === 'ru' ? 'Срок выполнения' : 'Timeline'}
+                    {locale === 'ru' ? 'РЎСЂРѕРє РІС‹РїРѕР»РЅРµРЅРёСЏ' : 'Timeline'}
                   </h3>
                 </div>
                 <p className="text-3xl font-bold text-primary-600 mb-6">
                   {service.timeline[locale]}
                 </p>
                 <p className="text-gray-600">
-                  {locale === 'ru' 
-                    ? 'Точные сроки зависят от сложности проекта и ваших требований'
+                  {locale === 'ru'
+                    ? 'РўРѕС‡РЅС‹Р№ СЃСЂРѕРє Р·Р°РІРёСЃРёС‚ РѕС‚ СЃР»РѕР¶РЅРѕСЃС‚Рё РїСЂРѕРµРєС‚Р° Рё РІР°С€РёС… С‚СЂРµР±РѕРІР°РЅРёР№'
                     : 'Exact timeline depends on project complexity and your requirements'}
                 </p>
               </motion.div>
@@ -134,7 +134,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               className="max-w-3xl"
             >
               <h2 className="text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-6">
-                {locale === 'ru' ? 'Что входит' : 'What\'s Included'}
+                {locale === 'ru' ? 'Р§С‚Рѕ РІС…РѕРґРёС‚' : 'What\'s Included'}
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 {service.description[locale]}
@@ -153,7 +153,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               transition={{ duration: 0.6 }}
               className="text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-12"
             >
-              {locale === 'ru' ? 'Возможности' : 'Features'}
+              {locale === 'ru' ? 'Р’РѕР·РјРѕР¶РЅРѕСЃС‚Рё' : 'Features'}
             </motion.h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -186,7 +186,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               transition={{ duration: 0.6 }}
               className="text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-12"
             >
-              {locale === 'ru' ? 'Процесс работы' : 'Work Process'}
+              {locale === 'ru' ? 'РџСЂРѕС†РµСЃСЃ СЂР°Р±РѕС‚С‹' : 'Work Process'}
             </motion.h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -219,7 +219,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               transition={{ duration: 0.6 }}
               className="text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-12"
             >
-              {locale === 'ru' ? 'Что вы получите' : 'What You Get'}
+              {locale === 'ru' ? 'Р§С‚Рѕ РІС‹ РїРѕР»СѓС‡РёС‚Рµ' : 'What You Get'}
             </motion.h2>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -265,7 +265,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               transition={{ duration: 0.6 }}
               className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-white mb-6"
             >
-              {locale === 'ru' ? 'Готовы начать проект?' : 'Ready to Start Your Project?'}
+              {locale === 'ru' ? 'Р“РѕС‚РѕРІС‹ РЅР°С‡Р°С‚СЊ РїСЂРѕРµРєС‚?' : 'Ready to Start Your Project?'}
             </motion.h2>
 
             <motion.p
@@ -275,13 +275,13 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl text-white/90 mb-10"
             >
-              {locale === 'ru' 
-                ? 'Свяжитесь со мной в Telegram для обсуждения деталей и получения точной оценки'
+              {locale === 'ru'
+                ? 'РќР°РїРёС€РёС‚Рµ РјРЅРµ РІ Telegram РґР»СЏ РѕР±СЃСѓР¶РґРµРЅРёСЏ РґРµС‚Р°Р»РµР№ Рё РїРѕР»СѓС‡РµРЅРёСЏ С‚РѕС‡РЅРѕР№ РѕС†РµРЅРєРё'
                 : 'Contact me on Telegram to discuss details and get an accurate estimate'}
             </motion.p>
 
             <motion.a
-              href="https://t.me/NOENEMY23"
+              href="https://t.me/yerkindev"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}
@@ -293,7 +293,7 @@ export default function ServiceDetailPage({ service, locale }: ServiceDetailPage
               className="inline-flex items-center space-x-3 px-10 py-5 bg-white text-primary-600 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl transition-all"
             >
               <Send className="w-6 h-6" />
-              <span>{locale === 'ru' ? 'Написать в Telegram' : 'Message on Telegram'}</span>
+              <span>{locale === 'ru' ? 'РќР°РїРёСЃР°С‚СЊ РІ Telegram' : 'Message on Telegram'}</span>
             </motion.a>
           </div>
         </section>
