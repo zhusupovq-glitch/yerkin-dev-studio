@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "process": "Process",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Creating Next-Generation Digital Products",
+    "subtitle": "Development of modern websites, mobile applications, AI solutions and brand animation for your business",
+    "cta1": "View Projects",
+    "cta2": "Message on Telegram"
+  },
+  "about": {
+    "title": "About Studio",
+    "description": "YERKIN Dev Studio is a team of professionals creating innovative digital solutions. We specialize in developing modern websites, mobile applications, Telegram bots, AI automation and logo animation. Our goal is to turn your ideas into functional and visually appealing products.",
+    "items": {
+      "item1": "Logo Animation",
+      "item2": "Modern Websites",
+      "item3": "Telegram Bots",
+      "item4": "Mobile Applications",
+      "item5": "AI Solutions",
+      "item6": "Interface Animation"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Full spectrum of digital solutions for your business",
+    "logoAnimation": {
+      "title": "Logo Animation",
+      "description": "Bringing your brand to life with professional logo animation",
+      "benefits": "Increased brand recognition, modern visual style"
+    },
+    "webDev": {
+      "title": "Website Development",
+      "description": "Modern, fast and responsive websites for your business",
+      "benefits": "SEO optimization, responsive design, high performance"
+    },
+    "telegramBots": {
+      "title": "Telegram Bots",
+      "description": "Business process automation through smart Telegram bots",
+      "benefits": "Time savings, automation, improved customer experience"
+    },
+    "mobileApps": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform applications for iOS and Android",
+      "benefits": "High performance, native UX, wide audience reach"
+    },
+    "aiSolutions": {
+      "title": "AI Solutions",
+      "description": "Integrating artificial intelligence into your business processes",
+      "benefits": "Automation, analytics, personalization, competitive advantage"
+    },
+    "uiAnimation": {
+      "title": "UI Animation",
+      "description": "Creating smooth and engaging animations for UI/UX",
+      "benefits": "Enhanced user experience, modern design"
+    },
+    "cta": "Learn More"
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Transparent process from idea to launch",
+    "steps": {
+      "discussion": {
+        "title": "Discussion",
+        "description": "Understanding your tasks, goals and project requirements"
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Developing technical specifications and solution architecture"
+      },
+      "design": {
+        "title": "Design",
+        "description": "Creating modern and functional interface design"
+      },
+      "development": {
+        "title": "Development",
+        "description": "Writing clean, scalable and performant code"
+      },
+      "testing": {
+        "title": "Testing",
+        "description": "Checking functionality across all devices and browsers"
+      },
+      "delivery": {
+        "title": "Delivery",
+        "description": "Launching the project and providing technical support"
+      }
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Examples of completed work",
+    "watchOnYoutube": "Watch on YouTube",
+    "viewOnGithub": "View on GitHub"
+  },
+  "youtube": {
+    "title": "YouTube Channel",
+    "subtitle": "Watch project reviews and development process",
+    "description": "On our YouTube channel we publish detailed project reviews, share experience and show the development process from start to finish.",
+    "cta": "Visit Channel"
+  },
+  "whyChoose": {
+    "title": "Why Choose Us",
+    "modernTech": {
+      "title": "Modern Technologies",
+      "description": "Using the latest tools and frameworks to create fast and reliable solutions"
+    },
+    "fastCommunication": {
+      "title": "Fast Communication",
+      "description": "Quick response on Telegram, regular updates on work progress"
+    },
+    "cleanCode": {
+      "title": "Clean Code",
+      "description": "Writing readable, scalable and well-documented code"
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "All projects work correctly on any devices and screens"
+    },
+    "aiIntegration": {
+      "title": "AI Integration",
+      "description": "Implementing artificial intelligence for automation and UX improvement"
+    },
+    "qualityAnimation": {
+      "title": "Quality Animation",
+      "description": "Creating smooth premium animations that bring interfaces to life"
+    },
+    "longTermSupport": {
+      "title": "Long-term Support",
+      "description": "Providing technical support and project development after launch"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "How much do your services cost?",
+      "answer": "The cost depends on project complexity, functionality and timeline. Contact me on Telegram to discuss details and get an accurate estimate."
+    },
+    "q2": {
+      "question": "How long does development take?",
+      "answer": "Timeline varies from 1-2 weeks for simple websites to several months for complex applications. After discussing requirements, I'll provide an accurate project timeline."
+    },
+    "q3": {
+      "question": "Do you provide technical support?",
+      "answer": "Yes, I provide technical support after project launch. The scope and terms of support are discussed individually depending on the project."
+    },
+    "q4": {
+      "question": "What technologies do you use?",
+      "answer": "I work with a modern stack: Next.js, React, TypeScript, TailwindCSS for frontend; Node.js, Python for backend; PostgreSQL, MongoDB for databases. I also use AI technologies for automation."
+    },
+    "q5": {
+      "question": "How does the work process go?",
+      "answer": "The process includes 6 stages: requirements discussion, planning, design, development, testing and project delivery. You receive regular updates at each stage via Telegram."
+    }
+  },
+  "contact": {
+    "title": "Let's Start Collaboration",
+    "subtitle": "Contact me to discuss your project",
+    "telegram": "Message on Telegram",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "message": "Tell about your project",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent!",
+      "error": "Send error. Try later."
+    }
+  },
+  "footer": {
+    "description": "Creating digital products that work",
+    "navigation": "Navigation",
+    "social": "Social Media",
+    "copyright": "© 2026 YERKIN Dev Studio. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "viewAll": "View All"
+  }
+}
